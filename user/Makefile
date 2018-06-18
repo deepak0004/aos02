@@ -4,7 +4,7 @@ DST=$(patsubst %.c,%,$(SRC))
 default: $(DST)
 
 $(DST): $(SRC) handler.S
-	gcc -o $@ $^
+	gcc -o $@ -g $^
 
 clean:
 	rm -rf $(DST)

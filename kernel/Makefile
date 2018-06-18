@@ -1,4 +1,3 @@
-
 PWD ?= $(shell pwd)
 MODULE_NAME=aos
 

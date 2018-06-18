@@ -1,0 +1,1 @@
+cmd_/home/deepak/Desktop/aos02/kernel/aos.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/deepak/Desktop/aos02/kernel/aos.ko /home/deepak/Desktop/aos02/kernel/aos.o /home/deepak/Desktop/aos02/kernel/aos.mod.o
